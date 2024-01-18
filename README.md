@@ -3,12 +3,12 @@
 * **SentiWordNet_SentimentAnalysis.ipynb**
   - This notebook reads citation data from "citation sentiment.txt."
   - It employs SentiWordNet for sentiment analysis on each sentence in the citation data, Generates a new Excel file, "SentiWordNet_Citation.xlsx," incorporating sentiment scores for each sentence.
- 
-  **Note: The file Athar_Author_New.xlsx" was generated after performing the disambiguation of names, which was mostly manual.**
-    
+   
 * **Authors_Name_Extraction.ipynb**
   - Reads citation data from "citation sentiment.txt."
   - It then utilizes request library of python to get names of author from the website, and then creates a new Excel file, "Athar_Author.xlsx," storing the names of authors for each unique paper in the dataset.
+
+**Note: The file Athar_Author_New.xlsx" was generated after performing the disambiguation of names, which was mostly manual.**
  
 * **Author_SelfCitation_And_EdgeList.ipynb**
   - Reads author names from "Athar_Author_New.xlsx" and computed sentiment scores from "SentiWordnet_Citation.xlsx."
